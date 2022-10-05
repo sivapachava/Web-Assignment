@@ -1,0 +1,142 @@
+*{
+    margin :0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ebebeb;
+}
+.navbar{
+    height: 75px;
+    width: 99%;
+    background-color: white;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;  
+    background-position: center; 
+}
+.logo{
+    display: flex;
+    margin-left: 150px;
+    height: 30px;
+    width: 180px;
+    margin-top: 25px;
+    background-color: white;
+}
+.bar{
+    width: 25%;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color:black;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    font-weight: bold;
+    color:black;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    background-color: white;
+    color:black;
+}
+.navbar ul li a:hover{
+    background-color: #eee;  
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 15px 0px 10px 0px;
+}
+.navbar ul li a:active{
+    background-color: #eee;
+}
+.Button{
+    margin-left: 200px;
+    margin-top: 25px;
+    background-color: white;
+}
+.Button a{
+    background-color: rgb(25, 184, 23);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+}
+.Button a:hover{
+    background-color: rgb(16, 88, 15);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+}
+.Button1{
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: white;
+}
+.Button1 a{
+    background-color: rgb(25, 184, 23);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none;
+}
+.Button1 a:hover{
+    background-color: rgb(16, 88, 15);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+}
+.Button1 a:active{
+    background-color: rgb(16, 88, 15);
+}
+.card2{
+	background-color: white;
+	margin: 20px;
+	width: 570px;
+	height: 350px;
+	margin-top: 50px;
+	margin-left: 340px;
+}
+.card2	p{
+		padding-left: 60px;
+		padding-top: 67px;
+		font-size: 32px;
+		background-color: white;
+		font-weight: normal;
+}
+.card2	input{
+		font-size: 16px;
+		width: 70%;
+		padding: 13px 18px;
+		margin-left: 60px;
+		margin-top: 20px;
+		border-radius: 5px;
+		background-color: white;
+		border-color: #ebebeb;
+		outline: none;
+}
+.card2 input:focus:valid{
+		border-color: green;
+}
+.card2 input:focus:invalid{
+        border-color: red;
+}
+Button{
+		font-size: 14px;
+		width: 75%;
+		padding: 10px 10px;
+		margin-left: 60px;
+		margin-top: 20px;
+		border-radius: 25px;
+		background-color: rgb(30, 195, 60);
+		color: white;
+		border: none;
+		cursor: pointer;
+}

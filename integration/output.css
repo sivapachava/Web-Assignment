@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ebebeb;
+}
+
+.navbar {
+  height: 75px;
+  width: 99%;
+  background-color: white;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-position: center;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+}
+.navbar ul li a:hover {
+  background-color: #eee;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 7px 10px 7px 10px;
+}
+
+.logo {
+  display: flex;
+  margin-left: 150px;
+  height: 30px;
+  width: 180px;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.bar {
+  width: 20%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+}
+
+.button-left.active {
+  background-color: #eee;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 7px 10px 7px 10px;
+}
+
+.Button {
+  margin-left: 200px;
+  margin-top: 25px;
+  background-color: white;
+  font-size: 14px;
+}
+.Button a {
+  background-color: #72ac51;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  padding: 6px 17px 6px 17px;
+  text-decoration: none;
+}
+.Button a:hover {
+  background-color: darkgreen;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  padding: 6px 17px 6px 17px;
+}
+
+.Button1 {
+  margin-left: 25px;
+  margin-top: 25px;
+  background-color: white;
+  font-size: 14px;
+}
+.Button1 a {
+  background-color: #72ac51;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  padding: 6px 17px 6px 17px;
+  text-decoration: none;
+}
+.Button1 a:hover {
+  background-color: darkgreen;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  padding: 6px 17px 6px 17px;
+}
+
+.Button-Left.active {
+  background-color: darkgreen;
+}
+
+.page-content {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  display: flex;
+}
+.page-content .left-panel {
+  width: 33.33%;
+  padding-right: 30px;
+}
+.page-content .right-panel {
+  width: 50%;
+}
+.page-content h1 {
+  font-size: 36px;
+  font-weight: 200;
+  margin-top: 20px;
+  color: #565656;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card1 {
+  background-color: white;
+  width: 230px;
+  height: 150px;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+}
+.card1 a {
+  background-color: white;
+  color: black;
+  display: block;
+  display: flex;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.card1 a:hover {
+  background-color: darkgreen;
+  color: #fff;
+}
+
+.button-right.active {
+  background-color: #72ac51;
+  color: #fff;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  margin-left: 300px;
+}
+
+.card {
+  background-color: white;
+  margin: 20px;
+  width: 350px;
+}
+.card h2 {
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.card p {
+  padding: 20px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", serif;
+  color: #565656;
+}
+
+.card-image {
+  background-color: white;
+  height: 130px;
+}
+
+.card2 {
+  background-color: white;
+  margin: 20px;
+  width: 570px;
+  height: 370px;
+  margin-top: 30px;
+  margin-left: 340px;
+}
+.card2 p {
+  padding-left: 60px;
+  padding-top: 67px;
+  font-size: 32px;
+  background-color: white;
+  font-weight: 400;
+  color: #565656;
+}
+.card2 input {
+  font-size: 16px;
+  width: 70%;
+  padding: 13px 18px;
+  margin-left: 60px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: white;
+  border-color: #ebebeb;
+  outline: none;
+}
+.card2 input:focus:valid {
+  border-color: green;
+}
+.card2 input:focus:invalid {
+  border-color: red;
+}
+
+button {
+  font-size: 14px;
+  width: 75%;
+  padding: 10px 10px;
+  margin-left: 60px;
+  margin-top: 20px;
+  border-radius: 25px;
+  background-color: #72ac51;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=output.css.map */

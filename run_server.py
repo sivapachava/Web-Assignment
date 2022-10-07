@@ -40,7 +40,7 @@ class S(SimpleHTTPRequestHandler):
         self._set_response()
 
         if (re.match("^\/register", self.path) and
-            safeget(post_data_fields, "username", 0) == "admin@domain.com" and
+            safeget(post_data_fields, "email", 0) == "admin@domain.com" and
             safeget(post_data_fields, "password", 0) == "rainbow") :
             self.wfile.write("""
                 <h1>Congrats, you succeeded to submit the correct data</h1>

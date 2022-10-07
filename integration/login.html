@@ -11,27 +11,32 @@
   </head>
 
   <body>
-    <div class="navbar">
-      <img src="./assets/img/musicca-logo.png" class="logo">
-      <ul class="bar">
-        <li><a href="" class ="button-left">Exercises </a></li>
-        <li><a href="" class ="button-left">Lessons</a></li>
-        <li><a href="./about.html">About</a></li>
-      </ul>
-       <div class="Button">                 
-         <a href="">Create account</a>
-       </div>
-       <div class="Button1">
-         <a href="./login.html"class="Button-Left active" >Log in</a>
-       </div>
-   </div>
+    <div class="menu">
+        <div class="container">
+          <img class="logo" src="./assets/img/musicca-logo.png">
+          <div class="header-left">
+            <a href=" " class=" button-left">Exercises</button>
+              <a href=" " class=" button-left">Lessons</button>
+                <a href="./about.html" class="button-left">About</a>
+          </div>
+    
+          <div class="header-right">
+            <a href=" " class=" button-right">Create account</a>
+            <a href="./login.html" class=" button-right active">Log in</a>
+          </div>
+        </div>
+      </div>
 
-          <div class="card2">
-             <form action="http://localhost:8000/register" method="post"></form>
-              <p>Log in</p>
-              <input  type="email" name="" placeholder="Email" required>
-              <input  type="password" name="" placeholder="Password" required>
-              <button type="submit" >Log in</button>
-         </div>
+   <div class="contentlogin">
+
+    <div class="card3">
+      <div class="card3-item1cont1">Log in</div>
+        <form action="http://localhost:8000/register" method="post">
+          <input class="item1" type="email" name="email"  placeholder="Email">   
+          <input class="item2" type="password" name="password" placeholder="Password">
+          <input type="submit" class="submit" value="Log in">
+       </form>
+     </div>
+   </div>
   </body>
 </html>
